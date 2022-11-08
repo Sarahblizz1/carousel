@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel Gallery Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="galleryContainer">
+        <div class="slideShowContainer">
+            <div class="leftArrow" onclick="plusSlides(-1)"><span class="arrow arrowLeft"></span>
+            </div>
+            <div class="rightArrow" onclick="plusSlides(1)"><span class="arrow arrowRight"></span>
+            </div>
+            <div class="captionHolder"><p class="captionText"></p></div>
+
+            <div class="imageHolder">
+                <img src="images/images1.jpg" alt="A03s">
+                <p class="captionText"> image 01</p>
+            </div>
+
+            <div class="imageHolder">
+                <img src="images/images2.jpg" alt="A03s">
+                <p class="captionText"> caption image 02</p>
+            </div>
+
+            <div class="imageHolder">
+                <img src="images/images3.jpg" alt="A03s">
+                <p class="captionText"> caption image 03</p>
+            </div>
+
+            <div class="imageHolder">
+                <img src="images/images4.jpg" alt="A03s">
+                <p class="captionText"> caption image 04</p>
+            </div>
+
+            <div class="imageHolder">
+                <img src="images/images5.jpg" alt="A03s">
+                <p class="captionText"> caption image 05</p>
+            </div>
+
+            <div class="imageHolder">
+                <img src="images/images6.jpg" alt="A03s">
+                <p class="captionText"> caption image 06</p>
+            </div>
+        </div>
+        <div id="dotsContainer"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
